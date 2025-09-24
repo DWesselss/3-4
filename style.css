@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    margin: 0 15px;
+}
+.menu a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #002244;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #003366;
+}
+.submenu li a {
+    padding: 10px 15px;
+    width: 180px;
+    text-align: left;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+.hoofdfoto {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+}
+.logo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 400px;
+    height: 150px;
+}
+.introtext {
+    font-size: 3rem;   /* maak de tekst groot (pas eventueel aan naar 2rem of 4rem) */
+    font-weight: bold; /* vetgedrukt */
+    margin-top: 30px;
+    color: #222;       /* donkere kleur, kan je aanpassen */
+}
