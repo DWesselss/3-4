@@ -49,22 +49,3 @@ header {
 .menu li:hover .submenu {
     display: block;
 }
-.hoofdfoto {
-    display: block;
-    margin: 20px auto;
-    width: 45%;
-    height: auto;
-}
-.logo {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 400px;
-    height: 150px;
-}
-.introtext {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-top: 30px;
-    color: #222;
-}

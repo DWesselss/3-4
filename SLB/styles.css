@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 header {
-    background-color: #004080;
+    background-color: #016342;
     color: white;
     padding: 20px;
 }
@@ -14,7 +14,7 @@ header {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #003366;
+    background-color: #016342;
 }
 .menu li {
     position: relative;
@@ -29,7 +29,7 @@ header {
     text-decoration: none;
 }
 .menu a:hover {
-    background-color: #002244;
+    background-color: #044832;
 }
 .submenu {
     display: none;
@@ -39,7 +39,7 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #003366;
+    background-color: #044832;
 }
 .submenu li a {
     padding: 10px 15px;
@@ -48,23 +48,4 @@ header {
 }
 .menu li:hover .submenu {
     display: block;
-}
-.hoofdfoto {
-    display: block;
-    margin: 20px auto;
-    max-width: 80%;
-    height: auto;
-}
-.logo {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 400px;
-    height: 150px;
-}
-.introtext {
-    font-size: 3rem;   /* maak de tekst groot (pas eventueel aan naar 2rem of 4rem) */
-    font-weight: bold; /* vetgedrukt */
-    margin-top: 30px;
-    color: #222;       /* donkere kleur, kan je aanpassen */
 }

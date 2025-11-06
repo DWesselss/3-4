@@ -50,3 +50,54 @@ img {
     height: auto;
     margin: 20px auto;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: #016342;
+    color: white;
+    padding: 20px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #016342;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    margin: 0 15px;
+}
+.menu a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #044832;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #044832;
+}
+.submenu li a {
+    padding: 10px 15px;
+    width: 180px;
+    text-align: left;
+}
+.menu li:hover .submenu {
+    display: block;
+}
