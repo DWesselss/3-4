@@ -49,3 +49,11 @@ header {
 .menu li:hover .submenu {
     display: block;
 }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #016342;
+      color: white;
+      margin-top: 50px;
+    }
